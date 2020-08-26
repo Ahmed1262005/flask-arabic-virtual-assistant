@@ -26,7 +26,7 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
 
 Add the api keys in the apikey.yml 
 ```sh
-python3 arabic_assistant
+python3 main
 ```
 
 ## Release History
