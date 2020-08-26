@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Roboto</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	</head>
+<body>
+<style>
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+
+}
+
+</style>
+<form method="POST" class="w3-centered w3-center w3-middle centered">
+
+    <!-- Input area -->
+    <label for="Speech Recognition">ذكاء اصطناعي</label>
+    <input type="text" name="text" id="speechToText" placeholder="اسالني" onclick="record()" class="w3-animate-input w3-text-blue w3-center w3-centered">
+        <input type="submit" class="w3-button w3-hover-red w3-blue w3-centered w3-center">
+	<h3 class ="w3-card-4">{{ Response }}</h3>
+   <!-- Below is the script for voice recognition and conversion to text-->
+<script>
+        function record() {
+            var recognition = new webkitSpeechRecognition();
+            recognition.lang = "ar-EG";
+
+            recognition.onresult = function(event) {
+                // console.log(event);
+                document.getElementById('speechToText').value = event.results[0][0].transcript;
+
+            }
+            recognition.start();
+
+        }
+    </script>
+
+    <!-- end of script -->
+		</form>
+	</body>
+</html>

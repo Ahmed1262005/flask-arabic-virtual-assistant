@@ -1,0 +1,4 @@
+assisstant:
+      apikey: '{Api-key-here}'
+      url: '{url-here}'
+      assisstant_id: '{assistant_id}'
