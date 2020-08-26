@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, make_response
+from flask import Flask, render_template, request
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 from ibm_watson import AssistantV2
 import json
