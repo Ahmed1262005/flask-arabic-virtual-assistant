@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ## Usage example
 
-This code works with Ibm watson services you have to enter api key and url of [speech to text](cloud.ibm.com/catalog/services/speech-to-text) and [watson assistant](cloud.ibm.com/catalog/services/watson-assistant) where you choose arabic and add your own arabic questions and [text to speech](cloud.ibm.com/catalog/services/text-to-speech) in apikey.yml file and the code will record audio for 5 seconds and the assistant will awnser you in [IBM](cloud.ibm.com)
+This code works with javascript speech to text and Ibm watson services you have to enter api key and url of [watson assistant](https://cloud.ibm.com/catalog/services/watson-assistant) where you choose arabic and add your own arabic questions in apikey.yml file and the code will record audio for 5 seconds and the assistant will answer you in [IBM](https://cloud.ibm.com)
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
 ## Development setup
