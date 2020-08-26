@@ -10,18 +10,12 @@ Make your Arabic assistant robot
 
 ## Installation
 
-raspberry pi & Linux:
+setup:
 
 ```sh
 pip install -r requirements.txt
 ```
 
-Windows:
-
-Pyaudio : https://people.csail.mit.edu/hubert/pyaudio/packages/pyaudio-0.2.8.py27.exe
-```sh
-pip install -r requirements.txt
-```
 
 ## Usage example
 
